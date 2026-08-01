@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Happy 20th Birthday Bunny ❤️</title>
+
+<style>
+body{
+margin:0;
+padding:0;
+background:#000;
+display:flex;
+justify-content:center;
+align-items:center;
+height:100vh;
+font-family:Arial,sans-serif;
+}
+
+.container{
+text-align:center;
+color:white;
+}
+
+h1{
+color:gold;
+font-size:40px;
+}
+
+p{
+font-size:20px;
+margin:20px;
+}
+
+input{
+padding:12px;
+font-size:18px;
+border-radius:10px;
+border:none;
+text-align:center;
+}
+
+button{
+margin-top:20px;
+padding:12px 30px;
+font-size:18px;
+background:gold;
+border:none;
+border-radius:30px;
+cursor:pointer;
+}
+
+button:hover{
+background:#ffd700;
+}
+</style>
+</head>
+
+<body>
+
+<div class="container">
+
+<h1>Happy 20th Birthday Bunny ❤️</h1>
+
+<p>Enter the Secret Password</p>
+
+<input type="password" id="password" placeholder="Password">
+
+<br>
+
+<button onclick="checkPassword()">Unlock Our Story ❤️</button>
+
+</div>
+
+<script>
+function checkPassword(){
+
+var pass=document.getElementById("password").value;
+
+if(pass=="26092024"){
+
+alert("Welcome Bunny ❤️");
+
+}else{
+
+alert("Wrong Password");
+
+}
+
+}
+</script>
+
+</body>
+</html>
